@@ -32,9 +32,12 @@
         </div>
     </nav>
     <!-- navbar -->
+
     <br><br><br><br>
+
     <!-- php -->
     <?php
+    // inisilisasi
     $nama = $_POST['nama'];
     $cekin = $_POST['cekin'];
     $durasi = $_POST['durasi'];
@@ -43,14 +46,18 @@
     $phonenumber = $_POST['phonenumber'];
     $checkout = date('Y-m-d', strtotime('+' . $durasi . 'days', strtotime($cekin)));
     $book = rand();
+    // inisilisasi
 
+    // logika array
     if (empty($_POST['array'])) {
         $service = 'No Service';
     } else {
         $service = $_POST['array'];
         $pilihan = count($service);
     }
+    // logika array
 
+    // logika total harga
     if ($roomtype == 'Standard') {
         $total = 90 * $durasi;
     } else if ($roomtype == 'Superior') {
@@ -58,8 +65,9 @@
     } else if ($roomtype == 'Luxury') {
         $total = 200 * $durasi;
     }
+    // logika total harga
 
-
+    // logika harga tambahan
     if ($pilihan == 2) {
         $add = 20;
     } else if ($pilihan == 1) {
@@ -68,8 +76,10 @@
         $add = 0;
     }
     $pricetotal = $total + $add;
+    // logika harga tambahan
     ?>
 
+    <!-- tabel -->
     <div class="container">
         <fieldset>
             <table class="table">
@@ -121,7 +131,7 @@
             </table>
         </fieldset>
     </div>
-    <!-- php -->
+    <!-- tabel -->
 
 
 
