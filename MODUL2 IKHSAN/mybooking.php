@@ -36,7 +36,7 @@
     <br><br><br><br>
 
     <!-- php -->
-    <?php
+    <php
     // inisilisasi
     $nama = $_POST['nama'];
     $cekin = $_POST['cekin'];

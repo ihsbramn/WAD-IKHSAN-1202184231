@@ -41,7 +41,7 @@
                     <fieldset class=" form-group">
                         <div class="form-group">
                             <label for="Name">Name</label>
-                            <input type="name" class=" form-control" name="nama">
+                            <input type="name" class=" form-control" name="name">
                         </div>
                         <div class="form-group">
                             <label for="DateCheckIn">Check-in</label>
@@ -85,7 +85,7 @@
             </div>
             <div class="col">
                 <br><br><br><br>
-                <img src="img/standardroom.jpeg" height="450" width="450">
+                <img src="img/standardrom.jpeg" height="450" width="450">
             </div>
         </div>
 
