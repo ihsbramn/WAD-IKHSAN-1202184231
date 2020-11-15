@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 15, 2020 at 02:06 PM
+-- Generation Time: Nov 15, 2020 at 02:49 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -46,7 +46,7 @@ CREATE TABLE `event_table` (
 --
 
 INSERT INTO `event_table` (`id`, `nama`, `deskripsi`, `gambar`, `kategori`, `tanggal`, `mulai`, `berakhir`, `tempat`, `harga`, `benefit`) VALUES
-(23, 'Webinar Santuy Masbramn', 'Seminar Santai Bersama Masbramn\r\nSemangat ', '1550282723_gege7e9m_400x400.jpg', 'Online', '2020-12-02', '09:15:00', '11:16:00', 'Zoom', 1500000, 'Sertifikat,Souvenir');
+(24, 'Webinar Santuy Masbramn', 'Webinar Santai Talk Bersama Masbramn', '2104246243_46b155b60ed35174517df5b6bada2092.jpg', 'Online', '2020-11-16', '09:30:00', '23:30:00', 'Zoom-keun', 50000, 'Sertifikat,Souvenir');
 
 --
 -- Indexes for dumped tables
@@ -66,7 +66,7 @@ ALTER TABLE `event_table`
 -- AUTO_INCREMENT for table `event_table`
 --
 ALTER TABLE `event_table`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
