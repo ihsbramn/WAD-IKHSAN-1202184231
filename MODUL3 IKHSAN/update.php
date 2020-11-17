@@ -16,7 +16,7 @@ $harga = $_POST['harga'];
 $benefit = implode(",", $_POST['benefit']);
 
 
-mysqli_query($koneksi, "update event_table set nama='$nama', deskripsi='$deskripsi', kategori='$kategori', tanggal='$tanggal', mulai='$mulai', berakhir='$berakhir', tempat='$tempat', harga='$harga', benefit='$benefit' where id='$id'");
+mysqli_query($koneksi, "update event_tablee set nama='$nama', deskripsi='$deskripsi', kategori='$kategori', tanggal='$tanggal', mulai='$mulai', berakhir='$berakhir', tempat='$tempat', harga='$harga', benefit='$benefit' where id='$id'");
 
 header("location:home.php");
 
